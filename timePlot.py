@@ -2,7 +2,7 @@ from detectorApp import df
 from bokeh.plotting import figure, show, output_file
 from bokeh.models import HoverTool, ColumnDataSource
 
-#date time modification
+#date time modification for hover view
 df["startString"]=df["Start"].dt.strftime("%Y-%m-%d %H:%M:%S")
 df["endString"]=df["End"].dt.strftime("%Y-%m-%d %H:%M:%S")
 
