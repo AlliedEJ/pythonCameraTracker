@@ -53,7 +53,8 @@ while True:
         if status==1:
             timeList.append(datetime.now())
         break
-
+    #Press q on keyboard to close script
+    
 print(statusList)
 print(timeList)
 
